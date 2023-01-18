@@ -1,0 +1,19 @@
+.solar-container, .netmeter-container, .result-container {
+    border: 1px solid #0a70052f;
+    border-radius: 10px;
+    margin: 2px auto;
+    background-color: #0455001b;
+}
+
+.conatiner-title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #14420b30;
+}
+
+body {
+    font-family: verdana;
+}
+
+.copyright {
+    font-size: 12px;
+}
