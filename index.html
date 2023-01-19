@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>E4Tech Solar Bill Analyser</title>
+
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N3GFX52');</script>
+    <!-- End Google Tag Manager -->
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="main.css" rel="stylesheet" />
-    <meta name="viewport" 
-              content="width=device-width,
+    <meta name="viewport" content="width=device-width,
                        initial-scale=1" />
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3GFX52" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand
 				navbar-dark bg-success">
@@ -53,15 +67,17 @@
                         <label for="nm_init_import" class="form-label">
                             Import:
                         </label>
-                        <input type="number" class="form-control" id="nm_init_import" placeholder="Net meter Initial Reading Import"
-                            required value="0" pattern="\d+" onkeyup="onChangeField(event)" />
+                        <input type="number" class="form-control" id="nm_init_import"
+                            placeholder="Net meter Initial Reading Import" required value="0" pattern="\d+"
+                            onkeyup="onChangeField(event)" />
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">
                             Export:
                         </label>
-                        <input type="number" class="form-control" id="nm_init_export" placeholder="Net meter Initial Reading Export"
-                            required value="0" pattern="\d+" onkeyup="onChangeField(event)" />
+                        <input type="number" class="form-control" id="nm_init_export"
+                            placeholder="Net meter Initial Reading Export" required value="0" pattern="\d+"
+                            onkeyup="onChangeField(event)" />
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6">
@@ -72,15 +88,17 @@
                         <label for="nm_final_import" class="form-label">
                             Import:
                         </label>
-                        <input type="number" class="form-control" id="nm_final_import" placeholder="Net meter Final reading Import"
-                            required value="0" pattern="\d+" onkeyup="onChangeField(event)" />
+                        <input type="number" class="form-control" id="nm_final_import"
+                            placeholder="Net meter Final reading Import" required value="0" pattern="\d+"
+                            onkeyup="onChangeField(event)" />
                     </div>
                     <div class="mb-3">
                         <label for="nm_final_export" class="form-label">
                             Export:
                         </label>
-                        <input type="number" class="form-control" id="nm_final_export" placeholder="Net meter Final reading Export"
-                            required value="0" pattern="\d+" onkeyup="onChangeField(event)" />
+                        <input type="number" class="form-control" id="nm_final_export"
+                            placeholder="Net meter Final reading Export" required value="0" pattern="\d+"
+                            onkeyup="onChangeField(event)" />
                     </div>
                 </div>
             </div>
@@ -91,8 +109,9 @@
                         <label for="solar_init" class="form-label">
                             Initial reading:
                         </label>
-                        <input type="number" class="form-control" id="solar_init" placeholder="Solar Meter Initial reading"
-                            required value="0" pattern="\d+" onkeyup="onChangeField(event)" />
+                        <input type="number" class="form-control" id="solar_init"
+                            placeholder="Solar Meter Initial reading" required value="0" pattern="\d+"
+                            onkeyup="onChangeField(event)" />
                     </div>
                 </div>
                 <div class="col-sm-12 col-lg-6">
@@ -100,8 +119,9 @@
                         <label for="solar_final" class="form-label">
                             Final reading:
                         </label>
-                        <input type="number" class="form-control" id="solar_final" placeholder="Solar meter Final reading"
-                            required value="0" pattern="\d+" onkeyup="onChangeField(event)" />
+                        <input type="number" class="form-control" id="solar_final"
+                            placeholder="Solar meter Final reading" required value="0" pattern="\d+"
+                            onkeyup="onChangeField(event)" />
                     </div>
                 </div>
             </div>
