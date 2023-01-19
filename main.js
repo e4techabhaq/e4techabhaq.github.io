@@ -19,7 +19,7 @@
     }
 
     function handleNan(value){
-        return isNaN(value)? 0 : value;
+        return (isNaN(value) || (value < 0))? 0 : value;
     }
 
     function calculateValues(input_values, output) {
